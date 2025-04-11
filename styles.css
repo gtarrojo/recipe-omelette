@@ -8,3 +8,59 @@
   --color-brown: #854632;
   --color-white: #ffffff;
 }
+
+/* general  */
+
+body {
+  background-color: var(--color-stone-light);
+  color: var(--color-stone-mid);
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+.recipe {
+  background-color: white;
+  padding: 40px;
+  max-width: 616px;
+  margin: 128px auto;
+  border-radius: 24px;
+}
+
+/* header  */
+
+.recipe__image {
+  width: 100%;
+  max-width: 536px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.recipe__heading {
+  color: var(--color-stone-dark);
+  font-size: 2.5rem;
+}
+
+.recipe__description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* preparation  */
+
+.recipe__preparation__heading {
+  color: var(--color-rose-dark);
+}
+
+.recipe__preparation {
+  max-width: 536px;
+  background-color: var(--color-rose-light);
+  padding: 24px;
+}
+
+.recipe__preparation__list li::marker {
+  color: var(--color-rose-dark);
+}
