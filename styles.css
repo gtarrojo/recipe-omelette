@@ -49,6 +49,13 @@ hr {
   max-width: 536px;
   height: auto;
   border-radius: 12px;
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .recipe__image {
+    border-radius: 0;
+  }
 }
 
 .recipe__heading {
