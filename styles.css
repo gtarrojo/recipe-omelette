@@ -52,7 +52,13 @@ hr {
   display: block;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 450px) {
+  .recipe {
+    margin-block: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
   .recipe__image {
     border-radius: 0;
   }
